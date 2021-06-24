@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 
 import { FilterWrapper } from "./FilterStyled";
 import { changeFilter } from "../../redux/phonebook/phonebook-actions";
+import { getFilter } from "../../redux/phonebook/phonebook-selectors";
 
 const Filter = ({ setFilter, value }) => {
   const handleChange = (e) => {
@@ -25,9 +26,10 @@ Filter.propTypes = {
   value: PropTypes.string.isRequired,
 };
 
-const mapStateToProps = ({ contacts: { filter } }) => ({
-  value: filter,
+const mapStateToProps = (state) => ({
+  value: getFilter(state),
 });
+
 const mapDispatchToProps = (dispatch) => ({
   setFilter: (value) => dispatch(changeFilter(value)),
 });

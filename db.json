@@ -1,3 +1,44 @@
 {
-  "contacts": []
+  "contacts": [
+    {
+      "id": "3589ed71-9534-4d47-9826-9e40c883bc09",
+      "name": "Sara",
+      "number": "4564574574"
+    },
+    {
+      "id": "9de417f8-1663-4294-a180-1bdb5c2a1f74",
+      "name": "Leo",
+      "number": "46574684565464"
+    },
+    {
+      "id": "f613f775-4f09-4f40-b217-a0767e336aec",
+      "name": "Clara",
+      "number": "4654654745"
+    },
+    {
+      "id": "60d9ce63-67cd-496a-8707-c1163cbb60ef",
+      "name": "Caroline",
+      "number": "5435346363"
+    },
+    {
+      "id": "d36de7ce-f1d1-4b95-862b-b29bf4271a26",
+      "name": "Maria",
+      "number": "54353463463"
+    },
+    {
+      "id": "edcfa164-f028-4800-80a3-403d314ef8bf",
+      "name": "Lori",
+      "number": "6456457547"
+    },
+    {
+      "id": "46ea68db-57ae-4643-a8c3-9350be986ae7",
+      "name": "Alfred",
+      "number": "456456754745"
+    },
+    {
+      "id": "591106b7-30aa-4ad6-a190-49cc51ba9331",
+      "name": "Alf",
+      "number": "543543"
+    }
+  ]
 }

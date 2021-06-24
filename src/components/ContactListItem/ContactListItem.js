@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const ContactListItem = ({ name, number, handleDelete }) => {
+const ContactListItem = ({ name, number, id, handleDelete }) => {
   return (
     <li className="contactListItem">
       <p>
@@ -9,7 +9,7 @@ const ContactListItem = ({ name, number, handleDelete }) => {
       </p>
       <button
         type="button"
-        name={name}
+        name={id}
         onClick={handleDelete}
         className="contactListDeleteButton"
       >
@@ -22,6 +22,7 @@ const ContactListItem = ({ name, number, handleDelete }) => {
 ContactListItem.propTypes = {
   name: PropTypes.string.isRequired,
   number: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
   handleDelete: PropTypes.func.isRequired,
 };
 
